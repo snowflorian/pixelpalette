@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Palette</title>
+  <style>
+    /* General styles */
+    body { font-family: Arial, sans-serif; color: #333; margin: 0; padding: 0; text-align: center; }
+    h1, h2 { color: teal; margin: 10px 0; }
+    p { margin: 10px 20px; line-height: 1.6; }
+    a { color: teal; text-decoration: none; }
+
+    /* Layout */
+    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+    .hero { background-color: #f0f0f0; padding: 50px 20px; }
+    .hero h1 { font-size: 2.5em; }
+    .section { padding: 20px; border-bottom: 1px solid #ddd; }
+
+    /* Footer */
+    .footer { background: #333; color: white; padding: 15px; font-size: 0.9em; }
+
+    /* Button */
+    .button { display: inline-block; padding: 10px 20px; margin-top: 10px; color: white; background-color: teal; border-radius: 5px; }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2em; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Pixel Palette</h1>
+    <p>Digital goods that elevate your workspace.</p>
+    <a href="#products" class="button">Explore Now</a>
+  </section>
+
+  <!-- About Section -->
+  <div class="container">
+    <section class="section" id="about">
+      <h2>About Us</h2>
+      <p>Pixel Palette offers curated digital goods like wallpapers, desktop organizers, Notion templates, planners, icons, and widgets—all designed to add beauty and functionality to your digital space.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+      <h2>Our Products</h2>
+      <p>Find everything you need to organize and personalize your workspace, from wallpapers to medical planners. Affordable prices from $0.50 to $5.00.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out to us at <a href="mailto:support@pixelpalette.com">support@pixelpalette.com</a></p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Pixel Palette. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
